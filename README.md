@@ -15,11 +15,17 @@ Es una cadena de texto que se asigna a una dirección IP numérica, que se utili
 el software cliente. Suelen estar divididos en dos o tres partes, cada uno de ellas separada por un punto. Cuando
 se leen de derecha a izquierda, los identificadores de los nombres de dominio van de lo general a lo más específico. 
 La sección a la  derecha del último punto de un nombre de dominio es el dominio de nivel superior (TLD), entre ellos, 
-se encuentran los TLD "genéricos" como ".com", ".net" y ".org"
+se encuentran los TLD "genéricos" como ".com", ".net" y ".org".
 
 ### Niveles de dominio
 
+1. Dominio genérico.
 
+2. Dominio de nivel superior patrocinado.
+
+3. Dominio de nievel superior con código de país.
+
+4. Dominio de nivel superiorde infraestructura.
 
 ### Zonas de búsqueda
 
