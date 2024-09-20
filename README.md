@@ -2,7 +2,7 @@
 
 ## DNS
 
-### * Resolución *
+### * Resolución
 
 
 
