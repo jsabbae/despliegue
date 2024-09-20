@@ -1,20 +1,22 @@
-# despliegue
+# Despliegue
 
-## Resolución
+## DNS
 
-## Nombre de Dominio
+### Resolución
 
-## Niveles de dominio
+### Nombre de Dominio
 
-## Zonas de búsqueda
+### Niveles de dominio
 
-##  Tipos de servidores
+### Zonas de búsqueda
 
-## Tipos de servidores
+###  Tipos de servidores
 
-## Registros
+### Tipos de servidores
 
-## Funcionamiento
+### Registros
+
+### Funcionamiento
 
 **_Consulta recursiva_**
 
