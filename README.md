@@ -105,10 +105,22 @@ Proporciona un nombre de dominio en búsqueda inversas.
 
 ### Funcionamiento
 
-
+El uso de uno u otro depende del tipo de consulta, y de los roles de los diferentes servidores DNS
+en el proceso de resolució
 
 **_Consulta recursiva_**
 
+Una consulta recursiva es cuando un servidor DNS se comunica con otros servidores DNS para buscar una
+dirección IP y devolverla al cliente. 
+Un programa se llama a sí mismo repetidamente hasta que se cumple una condición, mientras que en la 
+iteración se repite un conjunto de intrucciones hasta que se cumple una condición. Esta diferencia es
+difícil de ilustrar sin ver código, pero la clave es que la recursión es una solución que se llama a 
+sí mismo de forma repetida.  
 
 
 **_Consulta iterativa_**
+
+El cliente se comunica directamente con cada servidor DNS implicado en la búsqueda.
+Cada consulta DNS responde directamente al cliente con una dirección para que otro 
+servidor DNS pregunte, y el cliente sigue consultando a los servidores DNS hasta que
+uno de ellos responda con la dirección IP correcta para el dominio dado.
