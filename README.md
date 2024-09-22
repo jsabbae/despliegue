@@ -76,6 +76,31 @@ Traduce direcciones IP a nombres de dominio.
 
 ### Registros
 
+Los registros DNS son instrucciones radicadas en servidores DNS autoritativosque proporcionan información 
+sobre un dominio, como la dirección IP asociada con este y cómo gestionar solicitudes dirigidas a dicho dominio.
+Estos registros contienen en una serie de archivos de textos en lo que se conoce como sintaxis DNS. La sintaxis
+DNS es simplemente una cadena de caracteres utilizados como comandos que dicen al servidor DNS qué hacer.
+Estos son los tipos de registros que existen:
+1. **Registro A.** 
+ Registro que contiene la dirección IP de un dominio.
+2. **Registro AAAA.**
+El registro que contiene la dirección IPv6 de un dominio (a diferencia de los registros A, que enumeran 
+la dirección IPv4).
+3. **Registro CNAME.**
+Reenvia un dominio o subdominio a otro dominio, NO proporciona una dirección IP.  
+4. **Registro MX.**
+Dirige el correo a un servidor de correo electrónico. 
+5. **Registro TXT.**
+Permite que un administrador pueda almacenar notas de texto en el registro. Estos registros se suelen 
+utilizar para la seguridad del correo electrónico.
+6. **Registro NS.**
+Almacena el servidor de nombre para una entrada DNS.
+7. **Registro SOA.**
+Almacena la información del administrador sobre un dominino
+8. **Registro SRV.**
+Especifica un puerto para servicios específicos 
+9. **Registro PTR.**
+Proporciona un nombre de dominio en búsqueda inversas.
 
 
 ### Funcionamiento
