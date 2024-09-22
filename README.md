@@ -31,11 +31,14 @@ servidores de DNS alternativos, como es OpenNIC. Existen 3 tipos:
 - *Geográficos o de código de país (ccTLDs)*: por ejemplo, .es (España), .mx (México), .ar (Argentina).
 - *TLDs patrocinados*: creados para comunidades o industrias específicas, como .edu (educación), .gov(gobierno), .mil(militar).
 
-2. **Dominio de segundo nivel (SLD-Second-Level Domain)**
+2. **Dominio de segundo nivel (SLD-Second-Level Domain).**
+Es el nombre de la marca, organización u empresa dueña del sitio web en cuestión.
+Por ejemplo, en nuestro dominio: espacio.net.mx. La palabra, "espacios", sería SLD.
 
-
-3. **Dominio de tercer nivel o subdominio**
-
+3. **Dominio de tercer nivel o subdominio.**
+Estos tipos de dominio genérico (gTLD), con un dominio específico del país (ccTLD).
+Por lo que la terminación ".com.mx", hace referencia a este tipo de dominio, ya que es genérico, pero a su vez específico 
+para usuarios de México. 
 
 4. **Dominio Raiz (Root Domain).**
 El dominio raíz es la base de la jerarquia del DNS, que operan en la zona raíz. Estos servidores pueden responder 
@@ -47,16 +50,29 @@ que siven a la zona raíz de DNS, y existen cientos de servidores raíz redundan
 las solicitudes a la zona raíz.
 
 ### Zonas de búsqueda
-
+Una zona DNS es una parte del espacio de nombres DNS que está gestionada por una organización específica o un
+administrador. Permite más control granular de los componentes DNS como los servidores de nombre autoritario.
+Las zonas de búsqueda directa facilitan  la traducción de nombres de dominio a direcciones IP, lo que permite 
+a los usuarios acceder a recursos en Internet, mientras que las zonas de búsqueda inversa asignan direcciones 
+IP a nombres de dominio para tareas como diagnóstico de red y verificación de seguridad. 
 
 
 ###  Tipos de servidores
 
-
-
-### Tipos de servidores
-
-
+1. **Servidor recursivo.**
+Encuentra respuestas DNS mediante la consulta de otros servidores.
+2. **Servidor raíz.**
+Primer nivel en la jerarquía DNS; dirige las consultas a servidores TLD.
+3. **Servidor TLD.**
+Administra dominios de nivel superior (TLD) como .com, .org, etc.
+4. **Servidor autoritario.**
+Tiene la información final sobre los registros de un dominio específico.
+5. **Servidor de caché.**
+Almacena temporalmente la respuesta DNS para mejorar el rendimiento.
+6. **Servidor de reenvío.**
+Envía las consultas DNS a otros servidores recursivos.
+7. **Servidor DNS inverso.**
+Traduce direcciones IP a nombres de dominio.
 
 ### Registros
 
