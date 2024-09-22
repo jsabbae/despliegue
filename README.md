@@ -19,15 +19,22 @@ se encuentran los TLD "genéricos" como ".com", ".net" y ".org".
 
 ### Niveles de dominio
 
-El DNS funciona de manera dinámica
+El DNS funciona de forma jerárquica y por niveles. Estos niveles se pueden ver como partes de una dirección de Interenet
 
-1. Dominio genérico.
+1. *Dominio genérico.*
 
-2. Dominio de nivel superior patrocinado.
+2. *Dominio de nivel superior patrocinado.*
 
-3. Dominio de nievel superior con código de país.
+3. *Dominio de nievel superior con código de país.*
 
-4. Dominio de nivel superiorde infraestructura.
+4. *Dominio Raiz (Root Domain).*
+El dominio raíz es la base de la jerarquia del DNS, que operan en la zona raíz. Estos servidores pueden responder 
+directamente a las consultas de los registros almacenados en caché en la zona raíz, y también pueden remitir otras
+solicitudes al servidor de dominio de nivel superior (TLD) apropiado.
+Los servidores raíz son parte fundamental de la infraestructura de Internet; sin estos no funcionarian ni los 
+navegadores web ni los navegadores web ni muchas otras herramientas de Internet. Hay 13 direcciones IP diferentes 
+que siven a la zona raíz de DNS, y existen cientos de servidores raíz redundantes en todo el mundo para gestionar 
+las solicitudes a la zona raíz.
 
 ### Zonas de búsqueda
 
