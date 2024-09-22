@@ -19,15 +19,25 @@ se encuentran los TLD "genéricos" como ".com", ".net" y ".org".
 
 ### Niveles de dominio
 
-El DNS funciona de forma jerárquica y por niveles. Estos niveles se pueden ver como partes de una dirección de Interenet
+El DNS funciona de forma jerárquica y por niveles. Estos niveles se pueden ver como partes de una dirección de Interenet.
 
-1. *Dominio genérico.*
+1. **Dominio de nivel superior (TLD-Top-Level Domain).**
+Es la más alta categoria de los FQDN que es traducida a direcciones IP por los DNS oficiales de Internet. Los nombres 
+de servidores por los DNS oficiales de Internet. Los nombres servidos por los DNS oficiales son administrativos por 
+Internet Corporation for Assigned Names and Numbers (ICANN). Alternativamente a los DNS oficiales, hay una serie de 
+servidores de DNS alternativos, como es OpenNIC. Existen 3 tipos:
 
-2. *Dominio de nivel superior patrocinado.*
+- *Genéricos*: por ejemplo, .com, .org, .net, .info, etc.
+- *Geográficos o de código de país (ccTLDs)*: por ejemplo, .es (España), .mx (México), .ar (Argentina).
+- *TLDs patrocinados*: creados para comunidades o industrias específicas, como .edu (educación), .gov(gobierno), .mil(militar).
 
-3. *Dominio de nievel superior con código de país.*
+2. **Dominio de segundo nivel (SLD-Second-Level Domain)**
 
-4. *Dominio Raiz (Root Domain).*
+
+3. **Dominio de tercer nivel o subdominio**
+
+
+4. **Dominio Raiz (Root Domain).**
 El dominio raíz es la base de la jerarquia del DNS, que operan en la zona raíz. Estos servidores pueden responder 
 directamente a las consultas de los registros almacenados en caché en la zona raíz, y también pueden remitir otras
 solicitudes al servidor de dominio de nivel superior (TLD) apropiado.
