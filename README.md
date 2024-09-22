@@ -19,6 +19,8 @@ se encuentran los TLD "genéricos" como ".com", ".net" y ".org".
 
 ### Niveles de dominio
 
+El DNS funciona de manera dinámica
+
 1. Dominio genérico.
 
 2. Dominio de nivel superior patrocinado.
